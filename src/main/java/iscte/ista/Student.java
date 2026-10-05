@@ -23,4 +23,8 @@ public class Student {
     public String toString() {
         return "Student{name='" + name + "', number=" + number + "}";
     }
+
+    public String toCSV() {
+        return number + "," + name;
+    }
 }
