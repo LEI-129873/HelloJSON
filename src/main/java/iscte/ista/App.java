@@ -14,10 +14,10 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class App {
-    private static final String FIRSTNAMES_F_FILE = "data/firstnames_f.json";
-    private static final String FIRSTNAMES_M_FILE = "data/firstnames_m.json";
-    private static final String SURNAMES_FILE = "data/surnames.json";
-    private static final String STUDENTS_CVS_FILE = "data/students.cvs";
+    private static final String FIRSTNAMES_F_FILE = "../data/firstnames_f.json";
+    private static final String FIRSTNAMES_M_FILE = "../data/firstnames_m.json";
+    private static final String SURNAMES_FILE = "../data/surnames.json";
+    private static final String STUDENTS_CVS_FILE = "../data/students.cvs";
     private static final int INITIAL_NUMBER = 21000;
 
     public static void main(String[] args) throws IOException {
